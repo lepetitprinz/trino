@@ -1,18 +1,8 @@
-SHOW CATALOG;
-
-SHOW SCHEMAS FROM tpch;
-
-SHOW TABLES FROM tpch.sf1;
-
 SELECT count(name) FROM tpch.sf1.nation;
-
-USE tpch.sf1;
-
-DESCRIBE tpch.sf1.region;
 
 SELECT name FROM tpch.sf1.region;
 
-SELEC name
+SELECT name
 FROM tpch.sf1.region
 WHERE name like 'A%'
 ORDER BY name DESC;
