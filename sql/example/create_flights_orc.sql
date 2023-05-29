@@ -1,4 +1,5 @@
-CREATE TABLE minio.ontime.flights_orc (
+CREATE TABLE IF NOT EXISTS
+minio.ontime.flights_orc (
     Year INT,
     Quarter INT,
     Month INT,
